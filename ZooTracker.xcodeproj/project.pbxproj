@@ -7,13 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4487C65A1B28A5CE005FAA94 /* tracks60pt.png in Resources */ = {isa = PBXBuildFile; fileRef = 4487C6591B28A5CE005FAA94 /* tracks60pt.png */; };
 		8D2771B11B1E822000E1FB34 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2771B01B1E822000E1FB34 /* AppDelegate.swift */; };
 		8D2771B41B1E822000E1FB34 /* ZooTracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8D2771B21B1E822000E1FB34 /* ZooTracker.xcdatamodeld */; };
-		8D2771B61B1E822000E1FB34 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2771B51B1E822000E1FB34 /* ViewController.swift */; };
 		8D2771B91B1E822000E1FB34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D2771B71B1E822000E1FB34 /* Main.storyboard */; };
 		8D2771BB1B1E822000E1FB34 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D2771BA1B1E822000E1FB34 /* Images.xcassets */; };
 		8D2771BE1B1E822000E1FB34 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D2771BC1B1E822000E1FB34 /* LaunchScreen.xib */; };
 		8D2771CA1B1E822000E1FB34 /* ZooTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2771C91B1E822000E1FB34 /* ZooTrackerTests.swift */; };
+		8D2771D61B1E8B1400E1FB34 /* EnterDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2771D51B1E8B1400E1FB34 /* EnterDataViewController.swift */; };
+		8D2772091B1F637A00E1FB34 /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2772081B1F637A00E1FB34 /* Animal.swift */; };
+		8D27720B1B1F637B00E1FB34 /* Visit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D27720A1B1F637B00E1FB34 /* Visit.swift */; };
+		8D27720D1B1F641F00E1FB34 /* AnimalListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D27720C1B1F641F00E1FB34 /* AnimalListTableViewController.swift */; };
+		8DEE660F1B2217BD0009D66B /* GraphTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DEE660E1B2217BD0009D66B /* GraphTableViewController.swift */; };
+		8DEE661A1B2218730009D66B /* JBChart.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DEE66191B2218730009D66B /* JBChart.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8DEE66201B2218730009D66B /* JBChart.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DEE66151B2218730009D66B /* JBChart.framework */; };
+		8DEE66291B2218730009D66B /* JBChartTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DEE66281B2218730009D66B /* JBChartTests.m */; };
+		8DEE662C1B2218730009D66B /* JBChart.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DEE66151B2218730009D66B /* JBChart.framework */; };
+		8DEE662D1B2218730009D66B /* JBChart.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8DEE66151B2218730009D66B /* JBChart.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8DEE663C1B2218BD0009D66B /* JBBarChartView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DEE66361B2218BD0009D66B /* JBBarChartView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8DEE663D1B2218BD0009D66B /* JBBarChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DEE66371B2218BD0009D66B /* JBBarChartView.m */; };
+		8DEE663E1B2218BD0009D66B /* JBChartView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DEE66381B2218BD0009D66B /* JBChartView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8DEE663F1B2218BD0009D66B /* JBChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DEE66391B2218BD0009D66B /* JBChartView.m */; };
+		8DEE66401B2218BD0009D66B /* JBLineChartView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DEE663A1B2218BD0009D66B /* JBLineChartView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8DEE66411B2218BD0009D66B /* JBLineChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DEE663B1B2218BD0009D66B /* JBLineChartView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,20 +40,72 @@
 			remoteGlobalIDString = 8D2771AA1B1E822000E1FB34;
 			remoteInfo = ZooTracker;
 		};
+		8DEE66211B2218730009D66B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8D2771A31B1E822000E1FB34 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DEE66141B2218730009D66B;
+			remoteInfo = JBChart;
+		};
+		8DEE66231B2218730009D66B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8D2771A31B1E822000E1FB34 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D2771AA1B1E822000E1FB34;
+			remoteInfo = ZooTracker;
+		};
+		8DEE662A1B2218730009D66B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8D2771A31B1E822000E1FB34 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DEE66141B2218730009D66B;
+			remoteInfo = JBChart;
+		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		8DEE66311B2218730009D66B /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				8DEE662D1B2218730009D66B /* JBChart.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		4487C6591B28A5CE005FAA94 /* tracks60pt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tracks60pt.png; sourceTree = "<group>"; };
 		8D2771AB1B1E822000E1FB34 /* ZooTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZooTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D2771AF1B1E822000E1FB34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D2771B01B1E822000E1FB34 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8D2771B31B1E822000E1FB34 /* ZooTracker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ZooTracker.xcdatamodel; sourceTree = "<group>"; };
-		8D2771B51B1E822000E1FB34 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8D2771B81B1E822000E1FB34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8D2771BA1B1E822000E1FB34 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		8D2771BD1B1E822000E1FB34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		8D2771C31B1E822000E1FB34 /* ZooTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZooTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D2771C81B1E822000E1FB34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D2771C91B1E822000E1FB34 /* ZooTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZooTrackerTests.swift; sourceTree = "<group>"; };
+		8D2771D51B1E8B1400E1FB34 /* EnterDataViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnterDataViewController.swift; sourceTree = "<group>"; };
+		8D2772081B1F637A00E1FB34 /* Animal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
+		8D27720A1B1F637B00E1FB34 /* Visit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Visit.swift; sourceTree = "<group>"; };
+		8D27720C1B1F641F00E1FB34 /* AnimalListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AnimalListTableViewController.swift; path = ../AnimalListTableViewController.swift; sourceTree = "<group>"; };
+		8DEE660E1B2217BD0009D66B /* GraphTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphTableViewController.swift; sourceTree = "<group>"; };
+		8DEE66151B2218730009D66B /* JBChart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JBChart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DEE66181B2218730009D66B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DEE66191B2218730009D66B /* JBChart.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JBChart.h; sourceTree = "<group>"; };
+		8DEE661F1B2218730009D66B /* JBChartTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JBChartTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DEE66271B2218730009D66B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DEE66281B2218730009D66B /* JBChartTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JBChartTests.m; sourceTree = "<group>"; };
+		8DEE66361B2218BD0009D66B /* JBBarChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBBarChartView.h; sourceTree = "<group>"; };
+		8DEE66371B2218BD0009D66B /* JBBarChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBBarChartView.m; sourceTree = "<group>"; };
+		8DEE66381B2218BD0009D66B /* JBChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBChartView.h; sourceTree = "<group>"; };
+		8DEE66391B2218BD0009D66B /* JBChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBChartView.m; sourceTree = "<group>"; };
+		8DEE663A1B2218BD0009D66B /* JBLineChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBLineChartView.h; sourceTree = "<group>"; };
+		8DEE663B1B2218BD0009D66B /* JBLineChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBLineChartView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +113,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DEE662C1B2218730009D66B /* JBChart.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,6 +121,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DEE66111B2218730009D66B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DEE661C1B2218730009D66B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DEE66201B2218730009D66B /* JBChart.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +147,8 @@
 			children = (
 				8D2771AD1B1E822000E1FB34 /* ZooTracker */,
 				8D2771C61B1E822000E1FB34 /* ZooTrackerTests */,
+				8DEE66161B2218730009D66B /* JBChart */,
+				8DEE66251B2218730009D66B /* JBChartTests */,
 				8D2771AC1B1E822000E1FB34 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -72,6 +158,8 @@
 			children = (
 				8D2771AB1B1E822000E1FB34 /* ZooTracker.app */,
 				8D2771C31B1E822000E1FB34 /* ZooTrackerTests.xctest */,
+				8DEE66151B2218730009D66B /* JBChart.framework */,
+				8DEE661F1B2218730009D66B /* JBChartTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -79,9 +167,14 @@
 		8D2771AD1B1E822000E1FB34 /* ZooTracker */ = {
 			isa = PBXGroup;
 			children = (
+				4487C6591B28A5CE005FAA94 /* tracks60pt.png */,
+				8D27720C1B1F641F00E1FB34 /* AnimalListTableViewController.swift */,
+				8D27720A1B1F637B00E1FB34 /* Visit.swift */,
+				8D2772081B1F637A00E1FB34 /* Animal.swift */,
 				8D2771B01B1E822000E1FB34 /* AppDelegate.swift */,
-				8D2771B51B1E822000E1FB34 /* ViewController.swift */,
 				8D2771B71B1E822000E1FB34 /* Main.storyboard */,
+				8DEE660E1B2217BD0009D66B /* GraphTableViewController.swift */,
+				8D2771D51B1E8B1400E1FB34 /* EnterDataViewController.swift */,
 				8D2771BA1B1E822000E1FB34 /* Images.xcassets */,
 				8D2771BC1B1E822000E1FB34 /* LaunchScreen.xib */,
 				8D2771B21B1E822000E1FB34 /* ZooTracker.xcdatamodeld */,
@@ -115,7 +208,69 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		8DEE66161B2218730009D66B /* JBChart */ = {
+			isa = PBXGroup;
+			children = (
+				8DEE66191B2218730009D66B /* JBChart.h */,
+				8DEE66351B22189F0009D66B /* Classes */,
+				8DEE66171B2218730009D66B /* Supporting Files */,
+			);
+			path = JBChart;
+			sourceTree = "<group>";
+		};
+		8DEE66171B2218730009D66B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8DEE66181B2218730009D66B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8DEE66251B2218730009D66B /* JBChartTests */ = {
+			isa = PBXGroup;
+			children = (
+				8DEE66281B2218730009D66B /* JBChartTests.m */,
+				8DEE66261B2218730009D66B /* Supporting Files */,
+			);
+			path = JBChartTests;
+			sourceTree = "<group>";
+		};
+		8DEE66261B2218730009D66B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8DEE66271B2218730009D66B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8DEE66351B22189F0009D66B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8DEE66361B2218BD0009D66B /* JBBarChartView.h */,
+				8DEE66371B2218BD0009D66B /* JBBarChartView.m */,
+				8DEE66381B2218BD0009D66B /* JBChartView.h */,
+				8DEE66391B2218BD0009D66B /* JBChartView.m */,
+				8DEE663A1B2218BD0009D66B /* JBLineChartView.h */,
+				8DEE663B1B2218BD0009D66B /* JBLineChartView.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8DEE66121B2218730009D66B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DEE66401B2218BD0009D66B /* JBLineChartView.h in Headers */,
+				8DEE663C1B2218BD0009D66B /* JBBarChartView.h in Headers */,
+				8DEE663E1B2218BD0009D66B /* JBChartView.h in Headers */,
+				8DEE661A1B2218730009D66B /* JBChart.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		8D2771AA1B1E822000E1FB34 /* ZooTracker */ = {
@@ -125,10 +280,12 @@
 				8D2771A71B1E822000E1FB34 /* Sources */,
 				8D2771A81B1E822000E1FB34 /* Frameworks */,
 				8D2771A91B1E822000E1FB34 /* Resources */,
+				8DEE66311B2218730009D66B /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				8DEE662B1B2218730009D66B /* PBXTargetDependency */,
 			);
 			name = ZooTracker;
 			productName = ZooTracker;
@@ -153,6 +310,43 @@
 			productReference = 8D2771C31B1E822000E1FB34 /* ZooTrackerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		8DEE66141B2218730009D66B /* JBChart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DEE662E1B2218730009D66B /* Build configuration list for PBXNativeTarget "JBChart" */;
+			buildPhases = (
+				8DEE66101B2218730009D66B /* Sources */,
+				8DEE66111B2218730009D66B /* Frameworks */,
+				8DEE66121B2218730009D66B /* Headers */,
+				8DEE66131B2218730009D66B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JBChart;
+			productName = JBChart;
+			productReference = 8DEE66151B2218730009D66B /* JBChart.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8DEE661E1B2218730009D66B /* JBChartTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DEE66321B2218730009D66B /* Build configuration list for PBXNativeTarget "JBChartTests" */;
+			buildPhases = (
+				8DEE661B1B2218730009D66B /* Sources */,
+				8DEE661C1B2218730009D66B /* Frameworks */,
+				8DEE661D1B2218730009D66B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8DEE66221B2218730009D66B /* PBXTargetDependency */,
+				8DEE66241B2218730009D66B /* PBXTargetDependency */,
+			);
+			name = JBChartTests;
+			productName = JBChartTests;
+			productReference = 8DEE661F1B2218730009D66B /* JBChartTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -166,6 +360,13 @@
 						CreatedOnToolsVersion = 6.3.1;
 					};
 					8D2771C21B1E822000E1FB34 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 8D2771AA1B1E822000E1FB34;
+					};
+					8DEE66141B2218730009D66B = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					8DEE661E1B2218730009D66B = {
 						CreatedOnToolsVersion = 6.3.1;
 						TestTargetID = 8D2771AA1B1E822000E1FB34;
 					};
@@ -186,6 +387,8 @@
 			targets = (
 				8D2771AA1B1E822000E1FB34 /* ZooTracker */,
 				8D2771C21B1E822000E1FB34 /* ZooTrackerTests */,
+				8DEE66141B2218730009D66B /* JBChart */,
+				8DEE661E1B2218730009D66B /* JBChartTests */,
 			);
 		};
 /* End PBXProject section */
@@ -198,10 +401,25 @@
 				8D2771B91B1E822000E1FB34 /* Main.storyboard in Resources */,
 				8D2771BE1B1E822000E1FB34 /* LaunchScreen.xib in Resources */,
 				8D2771BB1B1E822000E1FB34 /* Images.xcassets in Resources */,
+				4487C65A1B28A5CE005FAA94 /* tracks60pt.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		8D2771C11B1E822000E1FB34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DEE66131B2218730009D66B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DEE661D1B2218730009D66B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -215,9 +433,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D2771B61B1E822000E1FB34 /* ViewController.swift in Sources */,
 				8D2771B11B1E822000E1FB34 /* AppDelegate.swift in Sources */,
+				8D27720D1B1F641F00E1FB34 /* AnimalListTableViewController.swift in Sources */,
+				8DEE660F1B2217BD0009D66B /* GraphTableViewController.swift in Sources */,
+				8D2771D61B1E8B1400E1FB34 /* EnterDataViewController.swift in Sources */,
 				8D2771B41B1E822000E1FB34 /* ZooTracker.xcdatamodeld in Sources */,
+				8D2772091B1F637A00E1FB34 /* Animal.swift in Sources */,
+				8D27720B1B1F637B00E1FB34 /* Visit.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,6 +451,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8DEE66101B2218730009D66B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DEE663D1B2218BD0009D66B /* JBBarChartView.m in Sources */,
+				8DEE66411B2218BD0009D66B /* JBLineChartView.m in Sources */,
+				8DEE663F1B2218BD0009D66B /* JBChartView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DEE661B1B2218730009D66B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DEE66291B2218730009D66B /* JBChartTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -236,6 +476,21 @@
 			isa = PBXTargetDependency;
 			target = 8D2771AA1B1E822000E1FB34 /* ZooTracker */;
 			targetProxy = 8D2771C41B1E822000E1FB34 /* PBXContainerItemProxy */;
+		};
+		8DEE66221B2218730009D66B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8DEE66141B2218730009D66B /* JBChart */;
+			targetProxy = 8DEE66211B2218730009D66B /* PBXContainerItemProxy */;
+		};
+		8DEE66241B2218730009D66B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D2771AA1B1E822000E1FB34 /* ZooTracker */;
+			targetProxy = 8DEE66231B2218730009D66B /* PBXContainerItemProxy */;
+		};
+		8DEE662B1B2218730009D66B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8DEE66141B2218730009D66B /* JBChart */;
+			targetProxy = 8DEE662A1B2218730009D66B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -343,7 +598,7 @@
 		8D2771CE1B1E822000E1FB34 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
 				INFOPLIST_FILE = ZooTracker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -353,7 +608,7 @@
 		8D2771CF1B1E822000E1FB34 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
 				INFOPLIST_FILE = ZooTracker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -394,6 +649,80 @@
 			};
 			name = Release;
 		};
+		8DEE662F1B2218730009D66B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = JBChart/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8DEE66301B2218730009D66B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = JBChart/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8DEE66331B2218730009D66B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = JBChartTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZooTracker.app/ZooTracker";
+			};
+			name = Debug;
+		};
+		8DEE66341B2218730009D66B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = JBChartTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZooTracker.app/ZooTracker";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -413,6 +742,7 @@
 				8D2771CF1B1E822000E1FB34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8D2771D01B1E822000E1FB34 /* Build configuration list for PBXNativeTarget "ZooTrackerTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +751,25 @@
 				8D2771D21B1E822000E1FB34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DEE662E1B2218730009D66B /* Build configuration list for PBXNativeTarget "JBChart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DEE662F1B2218730009D66B /* Debug */,
+				8DEE66301B2218730009D66B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DEE66321B2218730009D66B /* Build configuration list for PBXNativeTarget "JBChartTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DEE66331B2218730009D66B /* Debug */,
+				8DEE66341B2218730009D66B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
